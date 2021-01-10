@@ -10,6 +10,9 @@
 `python2 jemdoc.py index.jemdoc`
 
 ## Next steps
-* Add CV, linkedin, etc
-* Change photo
+- [x] Add CV, linkedin, etc
+- [x] Change photo
 * Tidy sidebar manu
+
+## Insert image
+{}{img_left}{photos/bio.jpg}{alt text}{131}{160}{http://people.kth.se/~euhanna/}
