@@ -12,7 +12,7 @@
 ## Next steps
 - [x] Add CV, linkedin, etc
 - [x] Change photo
-* Tidy sidebar manu
+- [ ] Tidy sidebar manu
 
 ## Insert image
 {}{img_left}{photos/bio.jpg}{alt text}{131}{160}{http://people.kth.se/~euhanna/}
