@@ -5,7 +5,7 @@
 * [Jacob Mattingley](https://jemnz.com/)
 * [Stephen P. Boyd](https://web.stanford.edu/~boyd/)
 * [知乎教程](https://zhuanlan.zhihu.com/p/161087743)
-
+* [Write math](https://github.com/wsshin/jemdoc_mathjax)
 ## Codes
 `python2 jemdoc.py index.jemdoc`
 
