@@ -13,6 +13,7 @@
 - [x] Add CV, linkedin, etc
 - [x] Change photo
 - [ ] Tidy sidebar manu
+- [ ] Update the site with mathjax
 
 ## Insert image
 {}{img_left}{photos/bio.jpg}{alt text}{131}{160}{http://people.kth.se/~euhanna/}
