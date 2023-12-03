@@ -1,0 +1,11 @@
+---
+listing:
+  contents: posts
+  sort: "date desc"
+  type: table
+  fields: [date, title, categories]
+  categories: true
+page-layout: full
+---
+
+
