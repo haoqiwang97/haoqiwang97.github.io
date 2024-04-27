@@ -13,12 +13,12 @@
 
 ::: {.g-col-12 .g-col-md-5}
 ### Haoqi Wang
-Ph.D. Student <br/>
+Ph.D. Candidate <br/>
 Biomedical Engineering <br/>
 The University of Texas at Austin <br/>
 
 [haoqiwang@utexas.edu](mailto:haoqiwang@utexas.edu) <br/><br/>
-[Resume](https://1drv.ms/b/s!ApJXSfTqlD16vRgrEeF5IyyTBnSD?e=w9m2Jt) [LinkedIn](https://www.linkedin.com/in/haoqi-wang/) [GitHub](https://github.com/haoqiwang97) <br/>
+[Resume](https://1drv.ms/b/s!ApJXSfTqlD16wFP0NfVNkLFrJ3Ya?e=bbvYJe) [LinkedIn](https://www.linkedin.com/in/haoqi-wang/) [GitHub](https://github.com/haoqiwang97) <br/>
 [Google Scholar](https://scholar.google.com/citations?user=QMe99scAAAAJ&hl=en) [ORCID](https://orcid.org/0000-0001-9147-4006)
 :::
 
@@ -30,7 +30,7 @@ The University of Texas at Austin <br/>
 <!-- detailed description -->
 ::: {.column-body}
 # About me
-I am currently a Ph.D. student in [Biomedical Engineering](https://www.bme.utexas.edu/) at [The University of Texas at Austin](https://www.utexas.edu/)<!---, advised by Professor [Mia Markey](https://www.bme.utexas.edu/people/faculty-directory/markey)-->. My research focuses on building tools to support clinical decision making.
+I am currently a Ph.D. Candidate in [Biomedical Engineering](https://www.bme.utexas.edu/) at [The University of Texas at Austin](https://www.utexas.edu/)<!---, advised by Professor [Mia Markey](https://www.bme.utexas.edu/people/faculty-directory/markey)-->. My research focuses on building tools to support clinical decision making.
 
 My research interests include:
 
@@ -39,7 +39,40 @@ My research interests include:
 - Machine learning
 - Clinical decision support
 
-I received my MS degree in Statistics in 2021 at [The University of Texas at Austin](https://www.utexas.edu/) and BS degree in Physics at [Nanjing University](https://www.nju.edu.cn/en/main.psp) in 2019. I did internship at [flywheel.io](https://flywheel.io/) during 2023 summer, where I worked on medical image segmentation. <!---During my undergraduate study, I did research with Professor [Yi Cao](https://biomech.nju.edu.cn/) on single molecule biophysics, including protein-protein interactions, protein unfolding, etc. In summer 2018, I joined Professor [Phillip Messersmith](https://bioinspiredmaterials.berkeley.edu/)'s lab at [University of California, Berkeley](https://www.berkeley.edu/), exploring molecular design principles of lysine-DOPA wet adhesion. -->
+I received my MS degree in Statistics in 2021 at [The University of Texas at Austin](https://www.utexas.edu/) and BS degree in Physics at [Nanjing University](https://www.nju.edu.cn/en/main.psp) in 2019. I did internship in Scientific Solution Engineering Team at [flywheel.io](https://flywheel.io/) during 2023 summer, where I worked on medical image segmentation and cloud deployment. <!---During my undergraduate study, I did research with Professor [Yi Cao](https://biomech.nju.edu.cn/) on single molecule biophysics, including protein-protein interactions, protein unfolding, etc. In summer 2018, I joined Professor [Phillip Messersmith](https://bioinspiredmaterials.berkeley.edu/)'s lab at [University of California, Berkeley](https://www.berkeley.edu/), exploring molecular design principles of lysine-DOPA wet adhesion. -->
+:::
+
+::: {.column-body}
+# Projects
+
+**Medical Image Segmentation** ([code](https://gitlab.com/flywheel-io/scientific-solutions/gears/ct-seg-monai-swin-unetr/-/tree/GEAR-4503-read-nifti?ref_type=heads)), *June. 2023-Aug. 2023*
+
+- Evaluated 3D image segmentation deep learning models and investigated factors influencing model performance
+- Cleaned and processed medical images, including DICOM to NIfTI conversion, image augmentation, etc.
+- Fine-tuned neural networks on Google Cloud Vertex AI GPU CUDA with small dataset, reaching accuracy of 0.95
+- Managed CI/CD, developed Docker image and deployed models to Kubernetes cloud, enabling large-scale inference
+- Built statistical model and demonstrated the importance of acquisition parameters in analyzing outliers
+
+**Text to SQL** ([code](https://github.com/haoqiwang97/PointerSQL_pytorch)), *Mar. 2021-May 2021*
+
+- Led a team to build a natural language processing (NLP) model for translating textual questions into SQL queries
+- Implemented RNN-LSTM generative model and attention, beam search, grammar check, which increased the accuracy by 27.2% compared with baseline
+
+**Time Series Counts Models** ([code](https://github.com/haoqiwang97/crash_python)), *Sept. 2021-present*
+
+- Proposed recurrent neural networks to forecast crash counts and trained on 700k records from 2010 to 2019 in Texas 
+- Merged geometric, demographic, and temporal features, resulting an increase in R2 by 15.9% compared to baseline 
+
+**Application of online learning in clinical decision support system** ([code](https://github.com/haoqiwang97/online_learning_fp)), *Oct. 2021-Dec. 2021*
+
+- Proposed to identify a clinical photograph of a prior patient that the current patient perceives as being similar to her mental image of what she will look like post-operatively as fast as possible
+- Implemented several bandit algorithms, including Upper Confidence Bound (UCB), tree-based adaptive recommender, graph-based UCB, near neighbor UCB and found near neighbor UCB performs the best with small number of rounds
+
+**Deep reinforcement learning in multi-agent environment** ([code](https://github.com/ChangShiRaine/RL_project_DGN)), *Mar. 2022-May 2022*
+
+- Built deep reinforcement learning model in multi-agent environment of StarCraft II
+- Implemented deep graph neural network to model inter-agent interaction, especially added relation kernel (attention mechanism by transformer) for agents to cooperate, which increased reward more than 90% compared with baseline of deep Q learning (PyTorch)
+
 :::
 
 ::: {.column-body}
@@ -53,36 +86,5 @@ I received my MS degree in Statistics in 2021 at [The University of Texas at Aus
 1. Theodore Charm, **Haoqi Wang**, Natalia Zuniga-Garcia, Mostaq Ahmed, Kara M Kockelman. Predicting crash occurrence at intersections in Texas: an opportunity for machine learning. Transportation Planning and Technology (2023). ([paper](https://doi.org/10.1080/03081060.2023.2177651), [code](https://github.com/haoqiwang97/crash_python))
 
 1. **Haoqi Wang**, Krista Nicklaus, Eloise Jewett, Eeshaan Rehani, Tzuan A. Chen, Jeff Engelmann, Mary Catherine Bordes, Deepti Chopra, Gregory P. Reece, Z-Hye Lee, Mia K. Markey. Assessing Saliency Models of Observers’ Visual Attention on Acquired Facial Differences. Journal of Medical Imaging (2023). ([paper](https://doi.org/10.1117/1.JMI.10.S1.S11908))
-
-:::
-
-::: {.column-body}
-# Projects
-
-**Medical image segmentation** ([code](https://github.com/haoqiwang97/ct-seg-monai-swin-unetr)), *June. 2023-Aug. 2023*
-
-- Fine-tuned the Swin UNETR (Swin UNEt TRansformers) deep neural network using the BTCV dataset (n=30) for multi-organ CT segmentation on Google Cloud Vertex AI (PyTorch), significantly reducing manual labeling efforts
-- Built docker image and deployed model to Flywheel cloud platform, enabling batch inference for large scale analysis
-- Conducted comparative analysis of two segmentation algorithms on an independent open-source CT dataset and highlighted the significance of carefully curated acquisition parameters for analyzing specific segmentation outliers
-
-**Text to SQL** ([code](https://github.com/haoqiwang97/PointerSQL_pytorch)), *Mar. 2021-May 2021*
-
-- Built a natural language processing model that translates textual questions to SQL queries
-- Implemented recurrent neural network with long short-term memory and attention, beam search, grammar check, and increased the accuracy by more than 20% compared with baseline (PyTorch)
-
-**Texas Crash Counts Time Series Analysis** ([code](https://github.com/haoqiwang97/crash_python)), *Sept. 2021-present*
-
-- Proposed to predict crash count of 5 severity levels in Texas with more than 700,000 observations from 2010 to 2019
-- Built deep neural network that merged geometric features, demographic features and time sequence features processed by recurrent neural network, which increased $R^2$ by 15.9% compared with baseline (PyTorch)
-
-**Application of online learning in clinical decision support system** ([code](https://github.com/haoqiwang97/online_learning_fp)), *Oct. 2021-Dec. 2021*
-
-- Proposed to identify a clinical photograph of a prior patient that the current patient perceives as being similar to her mental image of what she will look like post-operatively as fast as possible
-- Implemented several bandit algorithms, including Upper Confidence Bound (UCB), tree-based adaptive recommender, graph-based UCB, near neighbor UCB and found near neighbor UCB performs the best with small number of rounds
-
-**Deep reinforcement learning in multi-agent environment** ([code](https://github.com/ChangShiRaine/RL_project_DGN)), *Mar. 2022-May 2022*
-
-- Built deep reinforcement learning model in multi-agent environment of StarCraft II
-- Implemented deep graph neural network to model inter-agent interaction, especially added relation kernel (attention mechanism by transformer) for agents to cooperate, which increased reward more than 90% compared with baseline of deep Q learning (PyTorch)
 
 :::

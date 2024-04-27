@@ -1,0 +1,32 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2023-02-25-data-snowflake/snowflake_oa.html",
+      "/posts/2023-02-20-data-expedia/Expedia oa.html",
+      "/posts/2023-02-20-ds-useful/ds_useful_notes.html",
+      "/posts/2022-12-11-data4-fraud/fraud4.html",
+      "/posts/2022-12-11-data15-diversity/diversity15.html",
+      "/posts/2022-12-07-data14-shuttle-stops/shuttle_stops14.html",
+      "/posts/2022-12-07-data3-employee-retention/employee_retention3.html",
+      "/posts/2022-12-07-data19-subscription/subscription19.html",
+      "/posts/2022-12-07-data10-credit-card/credit_card10.html",
+      "/posts/2022-12-07-data12-loan-grant/loan_grant_data12.html",
+      "/posts/2022-12-06-data7-email/email7.html",
+      "/posts/2022-12-04-data1-conversion/conversion1.html",
+      "/posts/2022-12-01-data13-city-similarity/user_activity13.html",
+      "/posts/2022-12-01-pandas-groupby-agg/pandas_groupby_agg.html",
+      "/posts/2022-11-27-eda/eda.html",
+      "/posts/2022-11-26-sklearn-pipeline/pipeline.html",
+      "/posts/2022-11-24-data5-funnel-analysis/funnel_analysis5.html",
+      "/posts/2022-08-04-pass-by-object-reference/index.html",
+      "/posts/2022-08-01-leetcode/index.html",
+      "/posts/2022-05-31-python-oop/index.html",
+      "/posts/2021-10-10-tacc/index.html",
+      "/posts/2021-09-02-rmd-concatenate-pdfs/index.html",
+      "/posts/2021-09-02-stat-consulting/index.html",
+      "/posts/2021-08-15-bash/index.html",
+      "/posts/2021-08-13-pca/index.html"
+    ]
+  }
+]
